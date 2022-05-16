@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    width: 60vw;    
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin: 8px;
+}
+input{
+    display: block;
+}
+
+.resultado{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.result{
+    font-weight: bold;
+}

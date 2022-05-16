@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <label for="larg">Largura do Terreno:
+            <input type="text" name="Largura do Terreno" id="larg" placeholder="0.00">
+        </label>
+        <label for="comp">Comprimento do Terreno:
+            <input type="text" name="Comprimento do Terreno" id="comp" placeholder="0.00">
+        </label>
+        <label for="mq">Valor do metro quadrado:
+            <input type="text" name="Valor do metro quadrado" id="mq" placeholder="0.00">
+        </label>
+            <input type="submit" value="Enviar" id="enviar" >
+    </form>
+    <div class="resultado">
+        <p class="result">Resultado</p>
+        <p>Área do terreno: <span id="area"></span></p>
+        <p>Preço do terreno: <span id="preco"></span></p>
+    </div>
+
+    <script src="./style.js" defer></script>
+</body>
+</html>
